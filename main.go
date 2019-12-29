@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"tcarvi.com/tutorial/basics"
-	//"tcarvi.com/tutorial/methodsandinterfaces"
-	//"tcarvi.com/tutorial/concurrency"
+	"tcarvi.com/goTutorials/basics"
+	//"tcarvi.com/goTutorials/methodsandinterfaces"
+	//"tcarvi.com/goTutorials/concurrency"
 )
 
 func main(){
-	
+	fmt.Println("Go tutorials")
 	// basics
 	// basics.TPackages()
 	// basics.TImports()
@@ -23,8 +23,8 @@ func main(){
 	// basics.TDefer()
 	// basics.TPointers()
 	// basics.TStructs()
-	// basics.TArrays()
-	basics.TSlices()
+	basics.TArrays()
+	// basics.TSlices()
 	
 	// basics.TIota()
 
