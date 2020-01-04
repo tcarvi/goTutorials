@@ -34,5 +34,5 @@ func TBlocksAndScopes() {
 	// - While the identifier of the inner declaration is in scope, it denotes the entity declared by the inner declaration.
 
 	// The package clause is not a declaration; the package name does not appear in any scope. Its purpose is to identify the files belonging to the same package and to specify the default package name for import declarations.
-
+	// labels are not block scoped and do not conflict with identifiers that are not labels. The scope of a label is the body of the function in which it is declared and excludes the body of any nested function.
 }
