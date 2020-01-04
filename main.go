@@ -7,7 +7,7 @@ import (
 	//"tcarvi.com/goTutorials/concurrency"
 )
 
-func main(){
+func main() {
 	fmt.Println("Go tutorials")
 	// basics
 	// basics.TPackages()
@@ -21,11 +21,11 @@ func main(){
 	// basics.TLoop()
 	// basics.TControlFlow()
 	// basics.TDefer()
-	// basics.TPointers()
+	basics.TPointers()
 	// basics.TStructs()
-	basics.TArrays()
+	// basics.TArrays()
 	// basics.TSlices()
-	
+
 	// basics.TIota()
 
 	// methodsandinterfaces
