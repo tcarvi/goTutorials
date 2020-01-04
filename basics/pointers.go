@@ -11,7 +11,7 @@ import (
  * Go has no pointer arithmetic.
  */
 
-// TPointers apresenta Pointers: its dataType, initiation, address operator e dereferencing.
+// TPointers resume https://golang.org/ref/spec#Pointer_types (data type, initiation, address operator and dereferencing)
 func TPointers() {
 	fmt.Println("\n*** TPointers ***")
 
